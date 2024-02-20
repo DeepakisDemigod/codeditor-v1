@@ -49,9 +49,9 @@ const Userinput = ({
           {isPass && (
       <div onClick={() => setShowPass(!showPass)} className='cursor-pointer'>
               {showPass ? (
-        <Eye size={24} />
-      ): (
         <EyeSlash size={24} />
+      ): (
+        <Eye size={24} />
       )}
       </div>
     )}
